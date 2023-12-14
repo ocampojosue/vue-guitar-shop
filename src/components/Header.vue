@@ -75,8 +75,7 @@ const totalPagar = computed(() => {
                                                 class="img-fluid"
                                                 :src="
                                                     '/img/' +
-                                                    producto.imagen +
-                                                    '.jpg'
+                                                    producto.imagen
                                                 "
                                                 :alt="
                                                     'imagen guitarra' +
