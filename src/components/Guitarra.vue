@@ -16,9 +16,10 @@ defineEmits(['agregar-carrito'])
 <template>
     <div class="col-md-6 col-lg-4 my-4 row align-items-center">
         <div class="col-4">
+            <span>{{guitarra.imagen}}</span>
             <img
                 class="img-fluid"
-                :src="'/img/' + guitarra.imagen + '.jpg'"
+                :src="'/img/' + guitarra.imagen"
                 :alt="'imagen guitarra' + guitarra.nombre"
             />
         </div>
